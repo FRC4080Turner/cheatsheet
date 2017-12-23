@@ -1,0 +1,40 @@
+Initial_install:
+
+  All_machines:
+
+    SSH_key:
+      - link
+  
+    Git&Github:
+      - link
+  
+      Bash-git-prompt:
+        - link
+  
+    Tree:
+      - link
+  
+    Tab_completion:
+      - link
+
+  Dev_machine:
+  
+    Sublime_Text3:
+      - link
+  
+      Sublime_packages:
+        - GoSublime
+        - Dockerfile Syntax Highlighting
+        - SideBarEnhancements
+        - BracketHighlighter
+        - C Improved
+        - Anaconda
+        - All Autocomplete
+
+  Server:
+
+    nfw:
+      - link
+
+    fail2ban:
+      - link
