@@ -1,0 +1,12 @@
+Go_setup:
+  Install:
+    - https://golang.org/doc/install
+    - GoSublime
+    
+  Workspace:
+    - https://golang.org/doc/code.html#Workspaces
+
+
+Go_data_sci:
+  Links:
+    - https://www.cheatography.com/chewxy/cheat-sheets/data-science-in-go-a/
