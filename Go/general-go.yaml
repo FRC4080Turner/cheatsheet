@@ -2,10 +2,28 @@ Go_setup:
   Install:
     - https://golang.org/doc/install
     - GoSublime
+    For vscode:
+      - ext install lukehoban.Go
     
   Workspace:
     - https://golang.org/doc/code.html#Workspaces
-
+    
+   Video:
+    - https://www.youtube.com/watch?v=BmUP0u3f5yY&list=PLP_N4du1i7WculszFVguscnqk2_r7EJkA&index=8
+    
+      Steps:
+        - Download from: https://golang.org/dl
+        - Exstract to /usr/local: tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.g
+        - Create workspace: mkdir go{,/bin,/pkg,/src}
+        
+        Set environment vars:
+        
+          Add go bin to /etc/profile : 
+            - export PATH=$PATH:/usr/local/go/bin
+            
+          Add gopath to ~/.profile:
+            - export GOPATH=$HOME/go
+            - export GOPATH=$HOME/go/bin:$PATH
 
 Go_data_sci:
   Links:
