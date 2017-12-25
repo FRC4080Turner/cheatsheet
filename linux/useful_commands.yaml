@@ -1,0 +1,15 @@
+Networking:
+  See what ports are in use:
+    - netstat -lntup
+Firewall:
+  ufw:
+    Link:
+      - https://wiki.ubuntu.com/UncomplicatedFirewall
+      - https://help.ubuntu.com/community/UFW
+Sevice Management:
+  systemctl:
+    form: sudo systemctl <option> <service>
+    options:
+    - start
+    - stop
+    - reload
