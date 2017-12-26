@@ -9,19 +9,19 @@ Go_setup:
     - https://golang.org/doc/code.html#Workspaces
     
    Video:
-    - https://www.youtube.com/watch?v=BmUP0u3f5yY&list=PLP_N4du1i7WculszFVguscnqk2_r7EJkA&index=8
+    -
     
       Steps:
         - Download from: https://golang.org/dl
         - Exstract to /usr/local: tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.g
-        - Create workspace: mkdir go{,/bin,/pkg,/src}
+        - Create workspace: mkdir gocode{,/bin,/pkg,/src}
         
         Set environment vars:
         
           Add go env vars to .bashrc : 
             - export GOROOT="/usr/local/go"
-            - export GOPATH="$HOME/go"
-            - export PATH="$PATH:$HOME/go/bin"
+            - export GOPATH="$HOME/gocode"
+            - export PATH="$PATH:$HOME/gocode/bin"
             - export PATH="$PATH:/usr/local/go/bin"
 
 Go_data_sci:
