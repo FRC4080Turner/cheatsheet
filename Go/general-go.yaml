@@ -18,12 +18,11 @@ Go_setup:
         
         Set environment vars:
         
-          Add go bin to /etc/profile : 
-            - export PATH=$PATH:/usr/local/go/bin
-            
-          Add gopath to ~/.profile:
-            - export GOPATH=$HOME/go
-            - export GOPATH=$HOME/go/bin:$PATH
+          Add go env vars to .bashrc : 
+            - export GOROOT="/usr/local/go"
+            - export GOPATH="$HOME/go"
+            - export PATH="$PATH:$HOME/go/bin"
+            - export PATH="$PATH:/usr/local/go/bin"
 
 Go_data_sci:
   Links:
