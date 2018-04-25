@@ -3,7 +3,7 @@ Initial_install:
   All_machines:
 
     SSH_key:
-      - link
+      - "ssh-keygen"
   
     Git&Github:
       - link
@@ -16,9 +16,21 @@ Initial_install:
   
     Tab_completion:
       - link
+      
+    htop:
+     - sudo apt install htop
 
   Dev_machine:
   
+    ansible:
+     - 'sudo apt-get install software-properties-common'
+     - 'sudo apt-add-repository ppa:ansible/ansible'
+     - 'sudo apt-get update'
+     - 'sudo apt-get install ansible'
+    
+    lxc:
+     - sudo apt-get install lxc
+    
     Sublime_Text3:
       - link
   
