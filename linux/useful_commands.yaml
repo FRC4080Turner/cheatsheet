@@ -1,6 +1,7 @@
 Networking:
   See what ports are in use:
     - netstat -lntup
+    - sudo ss -atpu
 Firewall:
   ufw:
     Link:
