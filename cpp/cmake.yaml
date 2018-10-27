@@ -1,0 +1,4 @@
+CMake_install:
+	- sudo apt-get -y cmake-gui
+CMake_tut:
+	- http://derekmolloy.ie/hello-world-introductions-to-cmake/
